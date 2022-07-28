@@ -1,0 +1,22 @@
+.nav {
+    background-color:#142b61;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:2rem;
+    padding: 0 8rem;
+    position: sticky;
+    top: 0;
+
+}
+
+.nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+    gap: 3rem;
+    margin-top: 5px;
+    
+}
