@@ -8,9 +8,11 @@ import './styles/Styles'
 
 const App = () => {
 
-  const [coordinates, setCoordinates] = useState(null)
+  const [coordinates, setCoordinates] = useState({xDiff:0,yDiff:0})
 
-  const buttonRef = useRef()
+  const heroRef = useRef()
+
+  
 
 
   //hanki elementin keskikohdan x ja y koordinaatit
@@ -18,31 +20,25 @@ const App = () => {
   //laske etäisyys hiiren koordinaatti - elementin keskikoordinaatti
   //jaa etäisyydet keskikoordinaateilla --> käytä näitä tuloksia css tyylissä
 
-  const getMouseCoord = (e) => {
-    const xCoord = Math.round(
-      (e.nativeEvent.offsetX / e.nativeEvent.target.offsetWidth) * 100
-    );
-    const yCoord = Math.round(
-      (e.nativeEvent.offsetY / e.nativeEvent.target.offsetHeight) * 100
-    );
-    const coords = { xCoord, yCoord };
-    console.log(coords)
-    setCoordinates(coords)
-    
-  }
-  
-  const onClickHandler = () =>
+  const onMoveHandler = (e) =>
     {
-        const position = buttonRef.current.getBoundingClientRect();
-        //This returns an object with left, top, right, bottom, x, y, width, and height.
-        console.log(position)
+        const position = heroRef.current.getBoundingClientRect();
+        const xPos = position.left + heroRef.current.offsetWidth/2;
+        const yPos = position.top + (heroRef.current.offsetHeight/2)+window.scrollY;
+        const xDist = e.pageX-xPos;
+        const yDist = e.pageY-yPos;
+        const xDiff = (xDist/xPos)*10;
+        const yDiff = (yDist/yPos)*10;
+        
+        //console.log(xDiff, yDiff)
+        setCoordinates({xDiff,yDiff})
     }
   
   
   //console.log(coordinates)
   return (
     <div className='app'>
-      <Hero getMouseCoord={getMouseCoord} coordinates={coordinates} buttonRef={buttonRef} onClickHandler={onClickHandler}/>
+      <Hero  coordinates={coordinates} heroRef={heroRef} onMoveHandler={onMoveHandler}/>
       <NavBar/>
       <About/>
       <Projects/>

@@ -2,21 +2,22 @@ import {React,useRef, useEffect} from 'react'
 
 
 
-const Hero = ({getMouseCoord, coordinates, buttonRef, onClickHandler}) => {
+const Hero = ({ coordinates, heroRef, onMoveHandler}) => {
   
   
   //console.log(coordinates)
   const styles = { 
-    transform: `perspective(${1000}px) rotateX(${0}deg) rotateY(${0}deg) translateZ(${100}px)`,
+    transform: `perspective(${1000}px) rotateX(${-coordinates.yDiff}deg) rotateY(${coordinates.xDiff}deg) translateZ(${100}px)`,
   };
 
 
 
   return (
-    <section onMouseMove={(e) => getMouseCoord(e)} className='hero' >
-        <div className='hero-wrapper' style={styles} >
-          <h1 className='hero-title'>My name is Miko, I am a web developer</h1>
-          <button className='hero-button' onClick={onClickHandler} ref={buttonRef}>View my work</button>
+    <section className='hero' ref={heroRef} onMouseMove={onMoveHandler}>
+        <div className='hero-wrapper'  style={styles}  >
+          <h1 className='hero-title'>My name is Miko,</h1>
+          <h1 className='hero-title'>I am a web developer.</h1>
+          <button className='hero-button'  >View my work</button>
         </div>
     </section>
   )

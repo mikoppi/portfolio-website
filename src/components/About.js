@@ -1,15 +1,13 @@
 import React from 'react'
+import Bio from './Bio'
+import Tech from './Tech'
 
 const About = () => {
   return (
     <section className='about'>
         <div className='about-wrapper'>
-            <h2 className='about-title'>About</h2>
-            <div className='about-text'>
-                <p>Place a description here</p>
-                <p>And here</p>
-                <p>Maybe here aswell</p>
-            </div>
+            <Bio/>
+            <Tech/>
         </div>
     </section>
   )
