@@ -3,7 +3,7 @@ import React from 'react'
 const Bio = () => {
   return (
     <div className='bio-wrapper'>
-            <h2 className='bio-title'>About</h2>
+            
             <div className='bio-text'>
                 <p>Hello! I am a frontend focused web developer from Finland.
                 I have always found all kind of problem solving to be intriguing. 

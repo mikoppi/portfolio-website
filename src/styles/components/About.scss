@@ -1,10 +1,15 @@
 .about {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+   display: flex;
+   justify-content: center;
+
 }
 
 .about-wrapper {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 60%;
 }
 
@@ -12,10 +17,22 @@
     
 }
 
+.tech-wrapper,
+.bio-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 .skills {
-    width: 100%;
+    width: 80%;
     position: relative;
     padding-inline: 2.5rem;
+    display: flex;
+    justify-content: center;
+
   
   }
   

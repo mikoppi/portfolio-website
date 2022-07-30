@@ -9,7 +9,7 @@ const Projects = () => {
         <div className='projects-wrapper'>
             <h2 className='projects-title'>Projects</h2>
             <motion.div
-            initial={{ opacity: 0, x:-1000 }}
+            initial={{ opacity: 0, x:-200 }}
             whileInView={{ opacity: 1, x:0 }}
             //viewport={{ once: true }}
             //animate={{ x: 0 }}
@@ -25,7 +25,7 @@ const Projects = () => {
             </motion.div>
 
             <motion.div
-            initial={{ opacity: 0, x:1000 }}
+            initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
             //viewport={{ once: true }}
             //animate={{ x: 0 }}
