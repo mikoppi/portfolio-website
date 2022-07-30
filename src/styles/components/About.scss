@@ -36,7 +36,9 @@
   
   .skill {
     flex: 0 0 6rem;
-  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     margin-right: 1rem;
     position: relative;
   
@@ -46,16 +48,18 @@
     background-color: inherit;
     border: dotted 1px;
     border-color: inherit;
+    
   
     p {
       margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
       font-size: 0.6rem;
       text-align: center;
       text-transform: uppercase;
     }
   
     i {
-      font-size: 3rem;
+      font-size: 3.5rem;
       text-align: center;
     }
   }
