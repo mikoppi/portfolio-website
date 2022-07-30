@@ -32,10 +32,10 @@ const Projects = () => {
             transition={{ ease: "easeOut", duration: 1 }} 
             >
             <Project
-            title='FindTheseCharacters'
-            description='Playstation 1 themed photo tagging app inspired by Wheres Waldo. 
-            Find three characters as fast as possible and try to be the #1 on the global leaderboard!'
-            tech='Built using React and Firebase'
+            title='SteamDeals'
+            description='An e-commerce web application to display games, that are on discount on the actual 
+            Steam game store. It allows users to add items to shopping cart, edit quantities and remove items.'
+            tech='Built with React using the CheapShark API '
             videoSource=''
             />
             </motion.div>
