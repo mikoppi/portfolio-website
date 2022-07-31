@@ -6,9 +6,7 @@ const Contact = () => {
         <div className='contact-wrapper'>
             <h2 className='contact-title'>Contact</h2>
             <p className='contact__paragraph'>
-                Im currently looking for a role as a front-end web developer.
-                Whether you have a question, an offer or just want to chat, send me an
-                email or a message and I will get back to you!
+                
             </p>
             <form className='form'>
                 <input
