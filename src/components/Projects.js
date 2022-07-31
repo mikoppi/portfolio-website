@@ -1,6 +1,7 @@
 import React from 'react'
 import Project from './Project'
 import { motion } from "framer-motion"
+import waldo from '../videos/whereswaldo.mp4'
 
 
 const Projects = () => {
@@ -20,7 +21,7 @@ const Projects = () => {
             description='Playstation 1 themed photo tagging app inspired by Wheres Waldo. 
             Find three characters as fast as possible and try to be the #1 on the global leaderboard!'
             tech='Built using React and Firebase'
-            videoSource=''
+            videoSource={waldo}
             />
             </motion.div>
 
@@ -36,7 +37,7 @@ const Projects = () => {
             description='An e-commerce web application to display games, that are on discount on the actual 
             Steam game store. It allows users to add items to shopping cart, edit quantities and remove items.'
             tech='Built with React using the CheapShark API '
-            videoSource=''
+            videoSource={waldo}
             />
             </motion.div>
         </div>

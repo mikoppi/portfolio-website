@@ -76,7 +76,7 @@ const Tech = () => {
 
   return (
     <div className='tech-wrapper'>
-        <h2 className='skills-title'>Skills</h2>
+        <h3 className='skills-title'>Skills</h3>
         <SkillsCarousel/>
     </div>
   )
