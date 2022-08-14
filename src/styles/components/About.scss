@@ -1,7 +1,7 @@
 .about {
    display: flex;
    justify-content: center;
-
+  color: white;
 }
 
 .about-wrapper {
@@ -10,7 +10,16 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: 1px solid white;
+}
+
+.bio-title {
+  font-size: 2rem;
 }
 
 .bio-wrapper {
@@ -39,6 +48,7 @@
   .skills-carousel {
     overflow: hidden;
     width: 100%;
+    margin-bottom: 30px;
   }
   .skills-carousel__container {
     display: flex;

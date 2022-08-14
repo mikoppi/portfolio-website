@@ -1,8 +1,8 @@
 .nav {
-    background-color:#142b61;
-    color: white;
+    background-color:#c0c0c0c4;
+    color: rgb(0, 0, 0);
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap:2rem;
     padding: 0 8rem;
@@ -20,4 +20,26 @@
     gap: 3rem;
     margin-top: 5px;
     
+}
+
+.nav > ul > li {
+    transition: 0.5s ease-in-out;
+} 
+
+.nav > ul > li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.nav > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navlink {
+    font-size: 1rem;
+}
+
+.nav > ul >li >p {
+    font-size: 1rem;
 }

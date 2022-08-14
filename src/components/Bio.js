@@ -10,8 +10,10 @@ const Bio = () => {
                 Eventually I found out that solving problems while building the digital world is the most
                 interesting and rewarding field for me. So here I am now!
                 </p>
-                <p>And here</p>
-                <p>Maybe here aswell</p>
+                <p>At the moment I am diving more into backend development with NodeJS, Express and MongoDB.
+                  I am also planning to learn TypeScript soon.
+                </p>
+                <p>Let's work together!</p>
             </div>
         </div>
   )
