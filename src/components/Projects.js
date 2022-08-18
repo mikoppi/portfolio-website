@@ -2,7 +2,7 @@ import React from 'react'
 import Project from './Project'
 import { motion } from "framer-motion"
 import waldo from '../videos/whereswaldo.mp4'
-import shop from '../videos/onlineshop.mp4'
+import shop from 'https://github.com/mikoppi/portfolio-website/blob/gh-pages/static/media/onlineshop.34bc3bab29dd1fbed588.mp4'
 import pokemon from '../videos/Screencast 2022-08-14 15:27:09.mp4'
 
 const Projects = () => {
