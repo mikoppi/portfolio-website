@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio-website/static/css/main.f45b56f0.css",
-    "main.js": "/portfolio-website/static/js/main.0249e19a.js",
+    "main.js": "/portfolio-website/static/js/main.96b0fee4.js",
     "static/media/annie-spratt-yI3weKNBRTc-unsplash.jpg": "/portfolio-website/static/media/annie-spratt-yI3weKNBRTc-unsplash.1a3b7213d3822b5f7317.jpg",
     "static/media/whereswaldo.mp4": "/portfolio-website/static/media/whereswaldo.5b2775a1a4995aeb3e51.mp4",
     "static/media/Screencast 2022-08-14 15:27:09.mp4": "/portfolio-website/static/media/Screencast 2022-08-14 15:27:09.ca2fe516f464ddba8f0a.mp4",
-    "static/media/onlineshop.mp4": "/portfolio-website/static/media/onlineshop.34bc3bab29dd1fbed588.mp4",
     "index.html": "/portfolio-website/index.html",
     "main.f45b56f0.css.map": "/portfolio-website/static/css/main.f45b56f0.css.map",
-    "main.0249e19a.js.map": "/portfolio-website/static/js/main.0249e19a.js.map"
+    "main.96b0fee4.js.map": "/portfolio-website/static/js/main.96b0fee4.js.map"
   },
   "entrypoints": [
     "static/css/main.f45b56f0.css",
-    "static/js/main.0249e19a.js"
+    "static/js/main.96b0fee4.js"
   ]
 }
