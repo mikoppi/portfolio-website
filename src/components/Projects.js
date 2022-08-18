@@ -2,7 +2,6 @@ import React from 'react'
 import Project from './Project'
 import { motion } from "framer-motion"
 import waldo from '../videos/whereswaldo.mp4'
-import shop from 'https://github.com/mikoppi/portfolio-website/blob/gh-pages/static/media/onlineshop.34bc3bab29dd1fbed588.mp4'
 import pokemon from '../videos/Screencast 2022-08-14 15:27:09.mp4'
 
 const Projects = () => {
@@ -22,7 +21,7 @@ const Projects = () => {
             description='An e-commerce web application to display games, that are on discount on the actual 
             Steam game store. It allows users to add items to shopping cart, edit quantities and remove items.'
             tech='Built with React using the CheapShark API '
-            videoSource={shop}
+            videoSource='https://github.com/mikoppi/portfolio-website/blob/gh-pages/static/media/onlineshop.34bc3bab29dd1fbed588.mp4'
             url1='https://mikoppi.github.io/online-shop/'
             url2='https://github.com/mikoppi/online-shop'
             />
