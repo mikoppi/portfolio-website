@@ -5,5 +5,6 @@ import '../styles/components/NavBar.scss'
 import '../styles/components/About.scss'
 import '../styles/components/Projects.scss'
 import '../styles/components/Contact.scss'
+import '@coreui/coreui/dist/css/coreui.min.css'
 
 

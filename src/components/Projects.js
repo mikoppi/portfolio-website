@@ -6,8 +6,8 @@ import shopImage2 from '../styles/utils/images/Screenshot_2022-08-14_11-59-53.pn
 
 
 const shopImages = [
-  {url: shopImage1},
-  {url: shopImage2},
+  {url: shopImage1, caption:'plaaapalaa'},
+  {url: shopImage2 ,caption:'plaaapalaa'} ,
  
 ]
 
@@ -17,6 +17,7 @@ const Projects = () => {
         <div className='projects-wrapper'>
             <h2 className='projects-title'>Projects</h2>
             <motion.div
+            className='project-wrapper'
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
@@ -34,6 +35,8 @@ const Projects = () => {
             />
             </motion.div>
             <motion.div
+            className='project-wrapper'
+            id='online-shop'
             initial={{ opacity: 0, x:-200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
@@ -51,6 +54,7 @@ const Projects = () => {
             />
             </motion.div>
             <motion.div
+            className='project-wrapper'
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
