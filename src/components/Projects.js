@@ -1,15 +1,43 @@
 import React from 'react'
 import Project from './Project'
 import { motion } from "framer-motion"
-import shopImage1 from '../styles/utils/images/Screenshot_2022-08-14_11-58-44.png'
-import shopImage2 from '../styles/utils/images/Screenshot_2022-08-14_11-59-53.png'
+import shopImage1 from '../styles/utils/images/onlineshop1.jpg'
+import shopImage2 from '../styles/utils/images/onlineshop2.jpg'
+import shopImage3 from '../styles/utils/images/onlineshop3.jpg'
+import citybike1 from '../styles/utils/images/citybike1.jpg'
+import citybike2 from '../styles/utils/images/citybike2.jpg'
+import citybike3 from '../styles/utils/images/citybike3.jpg'
 
 
 const shopImages = [
-  {url: shopImage1, caption:'plaaapalaa'},
-  {url: shopImage2 ,caption:'plaaapalaa'} ,
- 
+  {url: shopImage1},
+  {url: shopImage2} ,
+  {url: shopImage3} ,
 ]
+
+const citybikeImages = [
+  {url: citybike1},
+  {url: citybike2},
+  {url: citybike3}
+]
+
+// const citybikeImages = [
+//   {url:},
+//   {url:},
+//   {url:}
+// ]
+
+// const citybikeImages = [
+//   {url:},
+//   {url:},
+//   {url:}
+// ]
+
+// const citybikeImages = [
+//   {url:},
+//   {url:},
+//   {url:}
+// ]
 
 const Projects = () => {
   return (
@@ -18,6 +46,29 @@ const Projects = () => {
             <h2 className='projects-title'>Projects</h2>
             <motion.div
             className='project-wrapper'
+            initial={{ opacity: 0, x:200 }}
+            whileInView={{ opacity: 1, x:0 }}
+            viewport={{ once: true }}
+            //animate={{ x: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }} 
+            >
+            <Project
+            title='Helsinki city bike app'
+            description='The apps purpose is to display information about Helsinki city bike stations
+             and show data about journeys made with the bikes. The data is parsed and validated from large csv files and 
+             then imported to a database.
+             '
+            tech='Built with MERN stack (MongoDB, Express, React and NodeJS) 
+            with a deployment in Heroku cloud platform'
+            pictures={citybikeImages}
+            url1='https://boiling-waters-92875.herokuapp.com/'
+            url2='https://github.com/mikoppi/city-bike-app'
+            />
+            </motion.div>
+
+            <motion.div
+            className='project-wrapper'
+            id='reversed'
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
@@ -36,7 +87,7 @@ const Projects = () => {
             </motion.div>
             <motion.div
             className='project-wrapper'
-            id='online-shop'
+            
             initial={{ opacity: 0, x:-200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
@@ -55,6 +106,7 @@ const Projects = () => {
             </motion.div>
             <motion.div
             className='project-wrapper'
+            id='reversed'
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
