@@ -11,27 +11,22 @@ const NavBar = () => {
  
   return (
     <nav className='nav'>
+          <Link className='navlink' activeClass="active" to="hero" 
+          spy={true} smooth={true} offset={-40} duration={500}>Home
+          </Link>
       
-      <ul>
-        <li>
-          <p>
           <Link className='navlink' activeClass="active" to="about" 
           spy={true} smooth={true} offset={-40} duration={500}>About
-          </Link></p>
-        </li>
-        <li>
-          <p>
+          </Link>
+      
         <Link className='navlink' activeClass="active" to="projects" 
           spy={true} smooth={true} offset={-40} duration={500}>Projects
-          </Link></p>
-        </li>
-        <li>
-          <p>
+          </Link>
+       
         <Link className='navlink' activeClass="active" to="contact" 
           spy={true} smooth={true} offset={-40} duration={500}>Contact
-          </Link></p>
-        </li>
-      </ul>
+          </Link>
+        
     </nav>
     
   )

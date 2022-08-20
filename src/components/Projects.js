@@ -7,7 +7,15 @@ import shopImage3 from '../styles/utils/images/onlineshop3.jpg'
 import citybike1 from '../styles/utils/images/citybike1.jpg'
 import citybike2 from '../styles/utils/images/citybike2.jpg'
 import citybike3 from '../styles/utils/images/citybike3.jpg'
-
+import waldo1 from '../styles/utils/images/whereswaldo1.jpg'
+import waldo2 from '../styles/utils/images/whereswaldo2.jpg'
+import waldo3 from '../styles/utils/images/whereswaldo3.jpg'
+import ship1 from '../styles/utils/images/battleship1.jpg'
+import ship2 from '../styles/utils/images/battleship2.jpg'
+import ship3 from '../styles/utils/images/battleship3.jpg'
+import pokemon1 from '../styles/utils/images/pokememory1.jpg'
+import pokemon2 from '../styles/utils/images/pokememory2.jpg'
+import pokemon3 from '../styles/utils/images/pokememory3.jpg'
 
 const shopImages = [
   {url: shopImage1},
@@ -21,23 +29,23 @@ const citybikeImages = [
   {url: citybike3}
 ]
 
-// const citybikeImages = [
-//   {url:},
-//   {url:},
-//   {url:}
-// ]
+const waldoImages = [
+  {url: waldo1},
+  {url: waldo2},
+  {url: waldo3}
+]
 
-// const citybikeImages = [
-//   {url:},
-//   {url:},
-//   {url:}
-// ]
+const battleshipImages = [
+  {url: ship1},
+  {url: ship2},
+  {url: ship3}
+]
 
-// const citybikeImages = [
-//   {url:},
-//   {url:},
-//   {url:}
-// ]
+const pokemonImages = [
+  {url:pokemon1},
+  {url:pokemon2},
+  {url:pokemon2}
+]
 
 const Projects = () => {
   return (
@@ -69,7 +77,7 @@ const Projects = () => {
             <motion.div
             className='project-wrapper'
             id='reversed'
-            initial={{ opacity: 0, x:200 }}
+            initial={{ opacity: 0, x:-200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
             //animate={{ x: 0 }}
@@ -88,7 +96,7 @@ const Projects = () => {
             <motion.div
             className='project-wrapper'
             
-            initial={{ opacity: 0, x:-200 }}
+            initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
             //animate={{ x: 0 }}
@@ -99,7 +107,7 @@ const Projects = () => {
             description='Playstation 1 themed photo tagging app inspired by Wheres Waldo. 
             Find three characters as fast as possible and try to be the #1 on the global leaderboard!'
             tech='Built using React and Firebase'
-            pictures={shopImages}
+            pictures={waldoImages}
             url1=''
             url2='https://github.com/mikoppi/wheres-waldo'
             />
@@ -107,6 +115,25 @@ const Projects = () => {
             <motion.div
             className='project-wrapper'
             id='reversed'
+            initial={{ opacity: 0, x:-200 }}
+            whileInView={{ opacity: 1, x:0 }}
+            viewport={{ once: true }}
+            //animate={{ x: 0 }}
+            transition={{ ease: "easeOut", duration: 1 }} 
+            >
+            <Project
+            title='Battleship'
+            description='Classic battleship game against your computer. Place your ships first, then try to find 
+            the enemy ships before your ships are found and sunk. '
+            tech='Built with vanilla Javascript, HTML and CSS'
+            pictures={battleshipImages}
+            url1=''
+            url2='https://github.com/mikoppi/Battleship'
+            />
+            </motion.div>
+
+            <motion.div
+            className='project-wrapper'
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
@@ -115,9 +142,9 @@ const Projects = () => {
             >
             <Project
             title='PokeMemory'
-            description='Pokemon themed memory card game. Score 24 to beat the game'
+            description='Pokemon themed memory card game. Score 24 to beat the game!'
             tech='Built with React'
-            pictures={shopImages}
+            pictures={pokemonImages}
             url1='https://mikoppi.github.io/memory-card-game/'
             url2='https://github.com/mikoppi/memory-card-game'
             />
