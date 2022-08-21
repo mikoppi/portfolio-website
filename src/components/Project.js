@@ -13,16 +13,16 @@ const Project = ({ title, description, tech, pictures, url1, url2 }) => {
           </p>
         
         <div className="project-buttons">
-          <div className="live-button">
-            <a href={url1}>
-              <button>Live demo</button>
+          
+            <a className="live-button" href={url1}>
+              Live demo
             </a>
-          </div>
-          <div className="source-button">
-            <a href={url2}>
-              <button>View code</button>
+         
+          
+            <a className="source-button" href={url2}>
+              View code
             </a>
-          </div>
+          
         </div>
       </div>
       <div className="carousel-wrapper">

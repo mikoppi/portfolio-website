@@ -85,24 +85,40 @@ video {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+    align-items: stretch;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .carousel-wrapper {
     width: 100%;
 }
 
+
 .source-button,
-.live-button {
+.live-button{
   
-  border-radius: 100px;
-  padding: 5px;
-  border: 0px;
-  padding-right: 10px;
-  margin-bottom: 3px;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  background-color: white;
   
+  text-decoration: none;
+  color: black;
   font-size: 2rem;
+  margin-bottom: 7px;
+  padding: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 7px;
+  transition: 0.5s ease-in-out;
+  
+}
+
+.source-button:hover,
+.live-button:hover{
+  color: black;
+  opacity: 50%;
 }
 
 #reversed > .project {
@@ -115,9 +131,43 @@ video {
 @media (max-width:2100px) {
     .project {
         width: 95%;
+        align-items: stretch;
     }
 
     .projects-wrapper {
         width: 90%;
     }
+}
+
+@media (max-width:1800px) {
+  .project-description {
+    width: 90%;
+    font-size: 1rem;
+}
+}
+
+@media (max-width:1600px) {
+  .source-button,
+.live-button {
+  
+  padding: 3px;
+  font-size: 1.3rem;
+}
+.project-title {
+  font-size: 1.5rem;
+  
+}
+}
+
+@media (max-width:1460px) {
+  .project {
+    flex-direction: column;
+}
+#reversed > .project {
+  flex-direction: column;
+}
+
+.project-info {
+  width: 100%;
+}
 }

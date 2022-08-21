@@ -144,3 +144,11 @@
     width: 95%;
   }
 }
+@media (max-width:800px) {
+  .skill>i {
+    font-size: 3rem;
+  }
+  .skills-carousel {
+    width: 50%;
+  }
+}
