@@ -15,9 +15,10 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.466)), url('./images/annie-spratt-yI3weKNBRTc-unsplash.jpg');
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(0, 0, 0, 0.466)), url('./images/63026273929f8.jpg');
+    background-position: center;
     font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
 }
 
 h1,
@@ -29,8 +30,13 @@ h6 {
     line-height: 1.2;
 }
 
+
 p {
     line-height: 1.5;
+}
+
+button{
+    background-color: #e3874f;
 }
 
 section {

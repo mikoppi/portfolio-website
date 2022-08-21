@@ -58,7 +58,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
             //animate={{ x: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }} 
+            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5}} 
             >
             <Project
             title='Helsinki city bike app'
@@ -81,7 +81,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
             //animate={{ x: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }} 
+            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5 }} 
             >
             <Project
             title='SteamDeals'
@@ -101,7 +101,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
             //animate={{ x: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }} 
+            transition={{ type: 'spring',ease: "easeOut", duration: 1 , delay: 0.5}} 
             >
             <Project
             title='FindTheseCharacters'
@@ -120,7 +120,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
             //animate={{ x: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }} 
+            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5 }} 
             >
             <Project
             title='Battleship'
@@ -139,7 +139,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ once: true }}
             //animate={{ x: 0 }}
-            transition={{ ease: "easeOut", duration: 1 }} 
+            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5 }} 
             >
             <Project
             title='PokéMemory'
