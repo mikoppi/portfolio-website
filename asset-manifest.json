@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.f45b56f0.css",
-    "main.js": "/portfolio-website/static/js/main.4600c52e.js",
+    "main.css": "/portfolio-website/static/css/main.42f6ef0e.css",
+    "main.js": "/portfolio-website/static/js/main.ff2f1de4.js",
     "static/media/annie-spratt-yI3weKNBRTc-unsplash.jpg": "/portfolio-website/static/media/annie-spratt-yI3weKNBRTc-unsplash.1a3b7213d3822b5f7317.jpg",
-    "static/media/Screenshot_2022-08-14_11-58-44.png": "/portfolio-website/static/media/Screenshot_2022-08-14_11-58-44.85eda0db6cc682d83dba.png",
-    "static/media/Screenshot_2022-08-14_11-59-53.png": "/portfolio-website/static/media/Screenshot_2022-08-14_11-59-53.4933b5b0b8043d065628.png",
+    "static/media/whereswaldo1.jpg": "/portfolio-website/static/media/whereswaldo1.c120e4efceb16a20fba4.jpg",
+    "static/media/citybike2.jpg": "/portfolio-website/static/media/citybike2.395d3fe4b3e164ab6931.jpg",
+    "static/media/citybike3.jpg": "/portfolio-website/static/media/citybike3.1d21078810e891922489.jpg",
+    "static/media/whereswaldo2.jpg": "/portfolio-website/static/media/whereswaldo2.c5ed7ca635750cd4a483.jpg",
+    "static/media/pokememory2.jpg": "/portfolio-website/static/media/pokememory2.3fcadb8e4377a26cb8d1.jpg",
+    "static/media/citybike1.jpg": "/portfolio-website/static/media/citybike1.c8db2d8d4c78d8ad5dde.jpg",
+    "static/media/pokememory1.jpg": "/portfolio-website/static/media/pokememory1.b22fedaf6d09368ea2d4.jpg",
+    "static/media/pokememory3.jpg": "/portfolio-website/static/media/pokememory3.87bf547fe84ac8022fea.jpg",
+    "static/media/whereswaldo3.jpg": "/portfolio-website/static/media/whereswaldo3.c6504dc24494f034e336.jpg",
+    "static/media/battleship2.jpg": "/portfolio-website/static/media/battleship2.2652a2120b19d494e946.jpg",
+    "static/media/onlineshop2.jpg": "/portfolio-website/static/media/onlineshop2.9005b76fc01d36555b6a.jpg",
+    "static/media/battleship1.jpg": "/portfolio-website/static/media/battleship1.e93d9f7d943f31e84e24.jpg",
+    "static/media/onlineshop3.jpg": "/portfolio-website/static/media/onlineshop3.0f0c6904094ea77f3709.jpg",
+    "static/media/battleship3.jpg": "/portfolio-website/static/media/battleship3.1f0a8b215d13de58eefb.jpg",
+    "static/media/onlineshop1.jpg": "/portfolio-website/static/media/onlineshop1.10f640d65bd17eadd01e.jpg",
     "index.html": "/portfolio-website/index.html",
-    "main.f45b56f0.css.map": "/portfolio-website/static/css/main.f45b56f0.css.map",
-    "main.4600c52e.js.map": "/portfolio-website/static/js/main.4600c52e.js.map"
+    "main.42f6ef0e.css.map": "/portfolio-website/static/css/main.42f6ef0e.css.map",
+    "main.ff2f1de4.js.map": "/portfolio-website/static/js/main.ff2f1de4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f45b56f0.css",
-    "static/js/main.4600c52e.js"
+    "static/css/main.42f6ef0e.css",
+    "static/js/main.ff2f1de4.js"
   ]
 }
