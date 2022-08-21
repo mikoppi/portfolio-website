@@ -44,17 +44,13 @@
 }
 
 
-.navlink.highlighted {
-    color: rgb(211, 72, 72);
-    border-bottom: 4px solid rgb(211, 72, 72);
+.nav >.active {
+    color: rgb(231, 217, 22);
+    border-bottom: 4px solid rgb(211, 100, 72);
   }
 
 
-  @media (hover: hover) and (pointer: fine) {
-    .nav .navlink:hover {
-      color: rgb(211, 72, 72);
-    }
-  }
+  
   
   @media (max-width: 800px) {
     .nav {

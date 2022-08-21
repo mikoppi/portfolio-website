@@ -42,7 +42,7 @@ const Contact = () => {
     <section className='contact'>
         <div className='contact-wrapper'>
             <h2 className='contact-title'>Contact</h2>
-            <p className='contact__paragraph'>
+            <p className='contact-paragraph'>
                 Feel free to message me anything that is on your mind!
             </p>
             <form className='form' ref={form} onSubmit={sendEmail}>

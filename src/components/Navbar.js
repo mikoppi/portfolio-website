@@ -1,12 +1,14 @@
 import React from 'react'
 import { Link } from "react-scroll";
-
+import { AiOutlineMail } from 'react-icons/ai';
 
 
 
 
 
 const NavBar = () => {
+
+  
     
  
   return (
@@ -24,7 +26,7 @@ const NavBar = () => {
           </Link>
        
         <Link className='navlink' activeClass="active" to="contact" 
-          spy={true} smooth={true} offset={-40} duration={500}>Contact
+          spy={true} smooth={true} offset={-40} duration={500}>{<AiOutlineMail size={35}/>}
           </Link>
         
     </nav>

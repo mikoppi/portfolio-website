@@ -8,11 +8,16 @@
  .contact-wrapper {
      
      display: flex;
-     justify-content: center;
+     justify-content:flex-start;
      flex-direction: column;
      align-items: center;
      width: 80%;
+     height: 50vh;
      background-color: rgba(0, 0, 0, 0.466);
+ }
+ .contact-paragraph {
+   font-size: 1.5rem;
+   margin-bottom: 30px;
  }
 
  .form {
@@ -20,20 +25,31 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:10px;
+    gap:20px;
     width: 100%;
     margin-bottom: 30px;
  }
 
  .form > input {
-    width: 50%
+    width: 50%;
+    font-size: 1.8rem;
  }
  .form > textarea {
-    width: 50%
+    width: 50%;
+    font-size: 1.8rem;
  }
 
  .contact-title {
     font-size: 2.5rem;
+   margin-bottom: 50px;
   }
  
+  @media (max-width:2100px) {
+  
+
+   .contact-wrapper {
+       width: 90%;
+   }
  
+   
+ }

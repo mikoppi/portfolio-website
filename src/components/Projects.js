@@ -44,7 +44,7 @@ const battleshipImages = [
 const pokemonImages = [
   {url:pokemon1},
   {url:pokemon2},
-  {url:pokemon2}
+  {url:pokemon3}
 ]
 
 const Projects = () => {
@@ -86,7 +86,8 @@ const Projects = () => {
             <Project
             title='SteamDeals'
             description='An e-commerce web application to display games, that are on discount on the actual 
-            Steam game store. It allows users to add items to shopping cart, edit quantities and remove items.'
+            Steam game store. It allows users to add items to shopping cart,
+             edit quantities and remove items. It also has pagination and sorting functionalities.'
             tech='Built with React using the CheapShark API '
             pictures={shopImages}
             url1='https://mikoppi.github.io/online-shop/'
@@ -141,9 +142,9 @@ const Projects = () => {
             transition={{ ease: "easeOut", duration: 1 }} 
             >
             <Project
-            title='PokeMemory'
-            description='Pokemon themed memory card game. Score 24 to beat the game!'
-            tech='Built with React'
+            title='PokéMemory'
+            description='Pokémon themed memory card game. Score 24 to beat the game!'
+            tech='Built with React using PokéAPI'
             pictures={pokemonImages}
             url1='https://mikoppi.github.io/memory-card-game/'
             url2='https://github.com/mikoppi/memory-card-game'

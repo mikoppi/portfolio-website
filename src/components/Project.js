@@ -7,11 +7,11 @@ const Project = ({ title, description, tech, pictures, url1, url2 }) => {
       <div className="project-info">
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
-        <div className="project-tech-wrapper">
+        
           <p className="project-tech">
             <i>{tech}</i>
           </p>
-        </div>
+        
         <div className="project-buttons">
           <div className="live-button">
             <a href={url1}>
