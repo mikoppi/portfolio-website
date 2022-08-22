@@ -109,7 +109,7 @@ const Projects = () => {
             Find three characters as fast as possible and try to be the #1 on the global leaderboard!'
             tech='Built using React and Firebase'
             pictures={waldoImages}
-            url1=''
+            url1='https://wheres-waldo-a04d0.web.app/'
             url2='https://github.com/mikoppi/wheres-waldo'
             />
             </motion.div>
@@ -128,7 +128,7 @@ const Projects = () => {
             the enemy ships before your ships are found and sunk. '
             tech='Built with vanilla Javascript, HTML and CSS'
             pictures={battleshipImages}
-            url1=''
+            url1='https://mikoppi.github.io/Battleship/'
             url2='https://github.com/mikoppi/Battleship'
             />
             </motion.div>
