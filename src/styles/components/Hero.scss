@@ -6,6 +6,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow-x: hidden;
+    
 }
 
 .hero-wrapper {
@@ -13,12 +15,17 @@
     flex-direction: column;
     align-items: center;
     transform: perspective(1000px) translateZ(100px);
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 0 90px 40px -20px rgba(0, 0, 0, 0.534);
+    
 }
 
 .hero-title {
     margin: 0;
     font-size: 3rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .hero-button {
     transition: 0.5s ease-in-out ;
@@ -39,7 +46,7 @@
 @media (max-width:700px) {
     .hero-title {
         
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         
     }
     

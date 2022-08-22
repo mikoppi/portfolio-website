@@ -11,8 +11,8 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
-    background-color: rgba(0, 0, 0, 0.301);
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 40px;
     
     border-bottom: 1px solid white;
 }
@@ -30,7 +30,7 @@
 .bio-wrapper {
     
     width: 80%;
-    background-color: #34405e94;
+    background-color: #1f2d50b2;
     padding: 20px;
     margin-bottom: 30px;
 }
@@ -42,8 +42,11 @@
     flex-direction: column;
     align-items: center;
     
+    
 
 }
+
+
 
 .skills {
     width: 80%;
@@ -51,6 +54,7 @@
     padding-inline: 2.5rem;
     display: flex;
     justify-content: center;
+    
   }
   
   .skills-carousel {
@@ -152,22 +156,19 @@
     font-size: 3rem;
   }
   .skills-carousel {
-    width: 70%;
+    width: 80%;
   }
 
   .skills {
     padding-inline: 0;
   }
 
-  .skills-carousel__prev{
-
+  .tech-wrapper {
+    width: 100vw;
   }
+
+  
   
   
 }
 
-@media (max-width:800px) {
-  .skills-carousel {
-    width: 40%;
-  }
-}
