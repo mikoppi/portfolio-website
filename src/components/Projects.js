@@ -56,9 +56,9 @@ const Projects = () => {
             className='project-wrapper'
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
-            viewport={{ once: true }}
+            viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5}} 
+            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5}} 
             >
             <Project
             title='Helsinki city bike app'
@@ -79,9 +79,9 @@ const Projects = () => {
             id='reversed'
             initial={{ opacity: 0, x:-200 }}
             whileInView={{ opacity: 1, x:0 }}
-            viewport={{ once: true }}
+            viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5 }} 
+            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5 }} 
             >
             <Project
             title='SteamDeals'
@@ -99,9 +99,9 @@ const Projects = () => {
             
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
-            viewport={{ once: true }}
+            viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',ease: "easeOut", duration: 1 , delay: 0.5}} 
+            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5 , delay: 0.5}} 
             >
             <Project
             title='FindTheseCharacters'
@@ -118,9 +118,9 @@ const Projects = () => {
             id='reversed'
             initial={{ opacity: 0, x:-200 }}
             whileInView={{ opacity: 1, x:0 }}
-            viewport={{ once: true }}
+            viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5 }} 
+            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5 }} 
             >
             <Project
             title='Battleship'
@@ -137,9 +137,9 @@ const Projects = () => {
             className='project-wrapper'
             initial={{ opacity: 0, x:200 }}
             whileInView={{ opacity: 1, x:0 }}
-            viewport={{ once: true }}
+            viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',ease: "easeOut", duration: 1, delay: 0.5 }} 
+            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5 }} 
             >
             <Project
             title='PokéMemory'
