@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.993b86d0.css",
-    "main.js": "/portfolio-website/static/js/main.8d29491f.js",
+    "main.css": "/portfolio-website/static/css/main.b2c78fa4.css",
+    "main.js": "/portfolio-website/static/js/main.e08b14a8.js",
     "static/media/63026273929f8.jpg": "/portfolio-website/static/media/63026273929f8.fbc2d8e1e729b9cb575c.jpg",
     "static/media/whereswaldo1.jpg": "/portfolio-website/static/media/whereswaldo1.c120e4efceb16a20fba4.jpg",
     "static/media/citybike2.jpg": "/portfolio-website/static/media/citybike2.395d3fe4b3e164ab6931.jpg",
@@ -19,11 +19,11 @@
     "static/media/battleship3.jpg": "/portfolio-website/static/media/battleship3.1f0a8b215d13de58eefb.jpg",
     "static/media/onlineshop1.jpg": "/portfolio-website/static/media/onlineshop1.10f640d65bd17eadd01e.jpg",
     "index.html": "/portfolio-website/index.html",
-    "main.993b86d0.css.map": "/portfolio-website/static/css/main.993b86d0.css.map",
-    "main.8d29491f.js.map": "/portfolio-website/static/js/main.8d29491f.js.map"
+    "main.b2c78fa4.css.map": "/portfolio-website/static/css/main.b2c78fa4.css.map",
+    "main.e08b14a8.js.map": "/portfolio-website/static/js/main.e08b14a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.993b86d0.css",
-    "static/js/main.8d29491f.js"
+    "static/css/main.b2c78fa4.css",
+    "static/js/main.e08b14a8.js"
   ]
 }
