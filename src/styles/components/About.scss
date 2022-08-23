@@ -161,13 +161,23 @@
 
   .skills {
     padding-inline: 0;
+    width: 100%;
   }
 
   .tech-wrapper {
     width: 100vw;
   }
+  .bio-wrapper {
+    width: 95%;
+    padding:10px;
+  }
+  .about-wrapper {
+    padding: 15px;
+  }
 
-  
+  .bio-text {
+    font-size: 1rem;
+  }
   
   
 }
