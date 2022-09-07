@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.6945e1d9.css",
-    "main.js": "/portfolio-website/static/js/main.a34c8aa4.js",
-    "static/media/63026273929f8.jpg": "/portfolio-website/static/media/63026273929f8.fbc2d8e1e729b9cb575c.jpg",
-    "static/media/whereswaldo1.jpg": "/portfolio-website/static/media/whereswaldo1.c120e4efceb16a20fba4.jpg",
-    "static/media/citybike2.jpg": "/portfolio-website/static/media/citybike2.395d3fe4b3e164ab6931.jpg",
-    "static/media/citybike3.jpg": "/portfolio-website/static/media/citybike3.1d21078810e891922489.jpg",
-    "static/media/whereswaldo2.jpg": "/portfolio-website/static/media/whereswaldo2.c5ed7ca635750cd4a483.jpg",
-    "static/media/pokememory2.jpg": "/portfolio-website/static/media/pokememory2.3fcadb8e4377a26cb8d1.jpg",
-    "static/media/citybike1.jpg": "/portfolio-website/static/media/citybike1.c8db2d8d4c78d8ad5dde.jpg",
-    "static/media/pokememory1.jpg": "/portfolio-website/static/media/pokememory1.b22fedaf6d09368ea2d4.jpg",
-    "static/media/pokememory3.jpg": "/portfolio-website/static/media/pokememory3.87bf547fe84ac8022fea.jpg",
-    "static/media/whereswaldo3.jpg": "/portfolio-website/static/media/whereswaldo3.c6504dc24494f034e336.jpg",
-    "static/media/battleship2.jpg": "/portfolio-website/static/media/battleship2.2652a2120b19d494e946.jpg",
-    "static/media/onlineshop2.jpg": "/portfolio-website/static/media/onlineshop2.9005b76fc01d36555b6a.jpg",
-    "static/media/battleship1.jpg": "/portfolio-website/static/media/battleship1.e93d9f7d943f31e84e24.jpg",
-    "static/media/onlineshop3.jpg": "/portfolio-website/static/media/onlineshop3.0f0c6904094ea77f3709.jpg",
-    "static/media/battleship3.jpg": "/portfolio-website/static/media/battleship3.1f0a8b215d13de58eefb.jpg",
-    "static/media/onlineshop1.jpg": "/portfolio-website/static/media/onlineshop1.10f640d65bd17eadd01e.jpg",
-    "index.html": "/portfolio-website/index.html",
-    "main.6945e1d9.css.map": "/portfolio-website/static/css/main.6945e1d9.css.map",
-    "main.a34c8aa4.js.map": "/portfolio-website/static/js/main.a34c8aa4.js.map"
+    "main.css": "/static/css/main.9dfc2e19.css",
+    "main.js": "/static/js/main.4b8caa22.js",
+    "static/media/63026273929f8.jpg": "/static/media/63026273929f8.fbc2d8e1e729b9cb575c.jpg",
+    "static/media/whereswaldo1.jpg": "/static/media/whereswaldo1.c120e4efceb16a20fba4.jpg",
+    "static/media/citybike2.jpg": "/static/media/citybike2.395d3fe4b3e164ab6931.jpg",
+    "static/media/citybike3.jpg": "/static/media/citybike3.1d21078810e891922489.jpg",
+    "static/media/whereswaldo2.jpg": "/static/media/whereswaldo2.c5ed7ca635750cd4a483.jpg",
+    "static/media/pokememory2.jpg": "/static/media/pokememory2.3fcadb8e4377a26cb8d1.jpg",
+    "static/media/citybike1.jpg": "/static/media/citybike1.c8db2d8d4c78d8ad5dde.jpg",
+    "static/media/pokememory1.jpg": "/static/media/pokememory1.b22fedaf6d09368ea2d4.jpg",
+    "static/media/pokememory3.jpg": "/static/media/pokememory3.87bf547fe84ac8022fea.jpg",
+    "static/media/whereswaldo3.jpg": "/static/media/whereswaldo3.c6504dc24494f034e336.jpg",
+    "static/media/battleship2.jpg": "/static/media/battleship2.2652a2120b19d494e946.jpg",
+    "static/media/onlineshop2.jpg": "/static/media/onlineshop2.9005b76fc01d36555b6a.jpg",
+    "static/media/battleship1.jpg": "/static/media/battleship1.e93d9f7d943f31e84e24.jpg",
+    "static/media/onlineshop3.jpg": "/static/media/onlineshop3.0f0c6904094ea77f3709.jpg",
+    "static/media/battleship3.jpg": "/static/media/battleship3.1f0a8b215d13de58eefb.jpg",
+    "static/media/onlineshop1.jpg": "/static/media/onlineshop1.10f640d65bd17eadd01e.jpg",
+    "index.html": "/index.html",
+    "main.9dfc2e19.css.map": "/static/css/main.9dfc2e19.css.map",
+    "main.4b8caa22.js.map": "/static/js/main.4b8caa22.js.map"
   },
   "entrypoints": [
-    "static/css/main.6945e1d9.css",
-    "static/js/main.a34c8aa4.js"
+    "static/css/main.9dfc2e19.css",
+    "static/js/main.4b8caa22.js"
   ]
 }
