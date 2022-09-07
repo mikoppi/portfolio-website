@@ -6,6 +6,7 @@ import Hero from './components/Hero'
 import NavBar from './components/Navbar'
 import Projects from './components/Projects'
 import './styles/Styles'
+import { Lines } from 'react-preloaders';
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
       <Projects/>
       <Contact/>
       <Footer/>
+     
     </div>
   )
 }

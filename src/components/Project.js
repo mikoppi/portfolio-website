@@ -1,5 +1,5 @@
 import React from "react";
-import { CCarousel, CCarouselItem, CImage, CCarouselCaption } from "@coreui/react";
+import { CCarousel, CCarouselItem, CImage } from "@coreui/react";
 
 const Project = ({ title, description, tech, pictures, url1, url2 }) => {
   return (
@@ -28,7 +28,7 @@ const Project = ({ title, description, tech, pictures, url1, url2 }) => {
       <div className="carousel-wrapper">
         <CCarousel controls indicators>
           {pictures.map(item => 
-            <CCarouselItem>
+            <CCarouselItem key={item.url}>
             <CImage
               className="d-flex w-100"
               src={item.url}
