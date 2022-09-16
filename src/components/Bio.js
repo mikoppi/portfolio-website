@@ -3,6 +3,7 @@ import React from 'react'
 const Bio = () => {
   return (
     <div className='bio-wrapper'>
+      
             
             <div className='bio-text'>
                 <p>Hello! I am a frontend focused web developer from Finland.
@@ -10,10 +11,11 @@ const Bio = () => {
                 Eventually I found out that solving problems while building the digital world is the most
                 interesting and rewarding field for me. So here I am now!
                 </p>
-                <p>At the moment I am diving more into backend development with NodeJS, Express and MongoDB.
-                  I am also planning to learn TypeScript soon.
+                <p>Right now I feel most comfortable with <span style={{color: "#98ebad"}}>HTML, CSS, JavaScript and the MERN stack (MongoDB, Express.js, Node.js and React.js). </span>
+                   But I am always willing to learn new technologies and skills. Next, I am going to learn TypeScript and start using it in my upcoming projects.
                 </p>
-                <p>Let's work together!</p>
+                <p>I am open to any suggestions/questions/requests that you might have. </p>
+                <p><span style={{color: " #d4a375", fontWeight:"bold"}}>Let's work together! </span></p>
             </div>
         </div>
   )

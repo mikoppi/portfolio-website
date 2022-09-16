@@ -38,15 +38,15 @@
 }
 
 .navlink:hover {
-    color: black;
+    color: white;
     transform: scale(1.2);
     cursor: pointer;
 }
 
 
 .nav >.active {
-    color: rgb(231, 217, 22);
-    border-bottom: 4px solid rgb(211, 100, 72);
+    color: #ecb785;
+    border-bottom: 4px solid#98ebad;
   }
 
 .navlink:nth-child(3) {

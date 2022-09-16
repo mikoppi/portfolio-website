@@ -58,12 +58,12 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5}} 
+            transition={{ type: 'spring',mass: 1,ease: "easeOut", duration: 1.5}} 
             >
             <Project
             title='Helsinki city bike app'
-            description='The apps purpose is to display information about Helsinki city bike stations
-             and show data about journeys made with the bikes. The data is parsed and validated from large csv files and 
+            description='The apps purpose is to display information about Helsinki city bike stations, 
+             and show data about journeys made with the bikes. The data is parsed and validated from large .csv files and 
              then imported to a database.
              '
             tech='Built with MERN stack (MongoDB, Express, React and NodeJS) 
@@ -81,7 +81,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5 }} 
+            transition={{ type: 'spring',mass: 1,ease: "easeOut", duration: 1.5,}} 
             >
             <Project
             title='SteamDeals'
@@ -101,7 +101,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5 , delay: 0.5}} 
+            transition={{ type: 'spring',mass: 1,ease: "easeOut", duration: 1.5 }} 
             >
             <Project
             title='FindTheseCharacters'
@@ -120,7 +120,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5 }} 
+            transition={{ type: 'spring',mass: 1,ease: "easeOut", duration: 1.5,}} 
             >
             <Project
             title='Battleship'
@@ -139,7 +139,7 @@ const Projects = () => {
             whileInView={{ opacity: 1, x:0 }}
             viewport={{ amount:0.3,once: true }}
             //animate={{ x: 0 }}
-            transition={{ type: 'spring',mass: 2,ease: "easeOut", duration: 1.5, delay: 0.5 }} 
+            transition={{ type: 'spring',mass: 1,ease: "easeOut", duration: 1.5,}} 
             >
             <Project
             title='PokéMemory'
