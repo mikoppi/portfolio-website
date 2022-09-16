@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9dfc2e19.css",
-    "main.js": "/static/js/main.4b8caa22.js",
+    "main.css": "/static/css/main.f11effe6.css",
+    "main.js": "/static/js/main.2854aa08.js",
     "static/media/63026273929f8.jpg": "/static/media/63026273929f8.fbc2d8e1e729b9cb575c.jpg",
     "static/media/whereswaldo1.jpg": "/static/media/whereswaldo1.c120e4efceb16a20fba4.jpg",
     "static/media/citybike2.jpg": "/static/media/citybike2.395d3fe4b3e164ab6931.jpg",
@@ -19,11 +19,11 @@
     "static/media/battleship3.jpg": "/static/media/battleship3.1f0a8b215d13de58eefb.jpg",
     "static/media/onlineshop1.jpg": "/static/media/onlineshop1.10f640d65bd17eadd01e.jpg",
     "index.html": "/index.html",
-    "main.9dfc2e19.css.map": "/static/css/main.9dfc2e19.css.map",
-    "main.4b8caa22.js.map": "/static/js/main.4b8caa22.js.map"
+    "main.f11effe6.css.map": "/static/css/main.f11effe6.css.map",
+    "main.2854aa08.js.map": "/static/js/main.2854aa08.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dfc2e19.css",
-    "static/js/main.4b8caa22.js"
+    "static/css/main.f11effe6.css",
+    "static/js/main.2854aa08.js"
   ]
 }
